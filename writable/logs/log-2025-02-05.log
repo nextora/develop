@@ -1,0 +1,20 @@
+ERROR - 2025-02-05 23:04:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for no-reply@nextora.co.in failed: Name or service not known in /home/ktvgqwmj/develop.nextora.co.in/system/Email/Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ktvgqwmj/develop.nextora.co.in/system/Email/Email.php(1901): fsockopen()
+#2 /home/ktvgqwmj/develop.nextora.co.in/system/Email/Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/ktvgqwmj/develop.nextora.co.in/system/Email/Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/ktvgqwmj/develop.nextora.co.in/system/Email/Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/ktvgqwmj/develop.nextora.co.in/app/Models/EmailModel.php(147): CodeIgniter\Email\Email->send()
+#6 /home/ktvgqwmj/develop.nextora.co.in/app/Models/EmailModel.php(109): App\Models\EmailModel->sendEmailCodeigniter()
+#7 /home/ktvgqwmj/develop.nextora.co.in/app/Models/EmailModel.php(66): App\Models\EmailModel->sendEmail()
+#8 /home/ktvgqwmj/develop.nextora.co.in/app/Controllers/AdminController.php(960): App\Models\EmailModel->sendTestEmail()
+#9 /home/ktvgqwmj/develop.nextora.co.in/system/CodeIgniter.php(933): App\Controllers\AdminController->sendTestEmailPost()
+#10 /home/ktvgqwmj/develop.nextora.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/ktvgqwmj/develop.nextora.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/ktvgqwmj/develop.nextora.co.in/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home/ktvgqwmj/develop.nextora.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/ktvgqwmj/develop.nextora.co.in/index.php(56): CodeIgniter\Boot::bootWeb()
+#15 {main}
+ERROR - 2025-02-05 23:04:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-02-05 23:04:31 --> 

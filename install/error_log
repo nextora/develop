@@ -1,0 +1,27 @@
+[05-Feb-2025 08:22:03 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 38
+[05-Feb-2025 08:22:03 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 41
+[05-Feb-2025 08:22:03 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 42
+[05-Feb-2025 15:29:38 UTC] PHP Notice:  Trying to get property 'code' of non-object in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 38
+[05-Feb-2025 15:29:38 UTC] PHP Notice:  Trying to get property 'code' of non-object in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 41
+[05-Feb-2025 15:29:38 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 42
+[05-Feb-2025 15:30:15 UTC] PHP Notice:  Trying to get property 'code' of non-object in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 38
+[05-Feb-2025 15:30:15 UTC] PHP Notice:  Trying to get property 'code' of non-object in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 41
+[05-Feb-2025 15:30:15 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 42
+[05-Feb-2025 15:31:30 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 38
+[05-Feb-2025 15:31:30 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 41
+[05-Feb-2025 15:31:30 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 42
+[05-Feb-2025 15:31:38 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 38
+[05-Feb-2025 15:31:38 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 41
+[05-Feb-2025 15:31:38 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 42
+[05-Feb-2025 15:31:45 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 38
+[05-Feb-2025 15:31:45 UTC] PHP Warning:  Attempt to read property "code" on array in /home/ktvgqwmj/develop.nextora.co.in/install/index.php on line 41
+[05-Feb-2025 15:32:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1' for key 'users.PRIMARY' in /home/ktvgqwmj/develop.nextora.co.in/install/admin.php:61
+Stack trace:
+#0 /home/ktvgqwmj/develop.nextora.co.in/install/admin.php(61): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ktvgqwmj/develop.nextora.co.in/install/admin.php on line 61
+[05-Feb-2025 15:32:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1' for key 'users.PRIMARY' in /home/ktvgqwmj/develop.nextora.co.in/install/admin.php:61
+Stack trace:
+#0 /home/ktvgqwmj/develop.nextora.co.in/install/admin.php(61): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ktvgqwmj/develop.nextora.co.in/install/admin.php on line 61
